@@ -1,0 +1,168 @@
+body{
+	background-image: url(web1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;   
+	background-size: 100% 100%;
+	
+
+}
+
+
+
+
+
+div#Anasayfa{
+	width: 1200px;
+	height: 600px;
+	margin: right;
+	border: 0px solid white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	background-attachment: fixed;
+	image-rendering: 100%;
+	float: right;
+	width: 100%;
+
+    
+}
+
+/*div#kutu{
+	width: 600px;
+	height: 340px;
+	border: 8px groove aqua;
+	
+	margin: auto;
+	text-align: center;
+	font-size: 22px;
+	color: red;
+	border-radius: 20px 20px 20px 20px;
+}
+*/
+
+/*h1{
+	background-image: url(web3.jpg);
+	background-repeat: repeat;
+	background-size: contain; 
+	
+}*/
+
+div#GrafikTasarım{
+	width: 1200px;
+	height: 640px;
+	margin: auto;
+	border: 0px solid white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	float: right;
+	width: 100%;
+	
+    
+}
+h2{
+	background-image: url(web39.jpg);
+	background-repeat: no-repeat;
+	background-size:  100% 100%;
+	
+}
+div#Animasyon{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	border: 0px solid white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	background-attachment: fixed;
+	float: right;
+	width: 100%;
+    
+}
+
+div#Logo{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	border: 0px solid white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	background-attachment: fixed;
+	float: right;
+	width: 100%;
+    
+}
+
+div#HtmlCss{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	border: 0px solid white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	background-attachment: fixed;
+	float: right;
+    width: 100%;
+}
+
+div.kutular{
+
+	width: 152px;
+	height: 80px;
+	background: none;
+	float: left;
+	margin-left: 4px;
+	margin-right: 4px;	
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-size: 18px;
+	box-shadow: 5px 5px blue;
+
+
+} 
+
+
+/*div#kutular2{
+
+	width: 1200px;
+	height: 100px;
+	background: none;
+	float: center;
+	margin-left: 22px;
+	margin-right: 14px;
+	margin: height;
+	margin-top: 8px;	
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-size: 18px;
+	
+} 
+
+*/
+
+table.table1{
+	width: 100%;
+	height: 120px;
+	margin: left;
+	background: url(web32.jpg);
+	background-size: 100% 100%;
+
+}
+
+td#td1{
+	width: 200px;
+}
