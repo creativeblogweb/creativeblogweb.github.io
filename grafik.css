@@ -64,12 +64,16 @@ div#GrafikTasarım{
 	
     
 }
+
+/*
 h2{
 	background-image: url(web39.jpg);
 	background-repeat: no-repeat;
 	background-size:  100% 100%;
 	
 }
+*/
+
 div#Animasyon{
 	width: 1200px;
 	height: 600px;
@@ -80,7 +84,7 @@ div#Animasyon{
 	text-align: center;
 	font-size: 40px;
 	color: red;
-	background-attachment: fixed;
+	
 	float: right;
 	width: 100%;
     
@@ -96,7 +100,7 @@ div#Logo{
 	text-align: center;
 	font-size: 40px;
 	color: red;
-	background-attachment: fixed;
+	
 	float: right;
 	width: 100%;
     
@@ -112,7 +116,7 @@ div#HtmlCss{
 	text-align: center;
 	font-size: 40px;
 	color: red;
-	background-attachment: fixed;
+	
 	float: right;
     width: 100%;
 }
