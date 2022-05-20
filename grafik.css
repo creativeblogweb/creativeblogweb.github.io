@@ -7,134 +7,100 @@ body{
 
 }
 
-
-
-
-
-div#Anasayfa{
-	width: 1200px;
-	height: 220px;
-	margin: right;
-	border: 0px solid white;
-	background-repeat: no-repeat;
-	background-image: url(web39.jpg);
-	background-size: cover;
-	text-align: center;
-	font-size: 40px;
-	color: red;
-	image-rendering: 100%;
-	float: right;
-	width: 100%;
-	
-    
-}
-
-/*div#kutu{
-	width: 600px;
-	height: 340px;
-	border: 8px groove aqua;
-	
+div.kutu{
+	width: 800px;
+	height: 1800px;
 	margin: auto;
-	text-align: center;
-	font-size: 22px;
-	color: red;
-	border-radius: 20px 20px 20px 20px;
-}
-*/
+	border: 0px solid teal;
+	/*background-image: url(web8.png);*/
+	background-image: url(web34.jpg);
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 180px;
 
-/*h1{
+
+}
+
+
+div#kutu1{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	margin-top: 2px;
+}
+
+
+div#kutu2{
+	width: 100%;
+	height: 380px;
 	background-image: url(web3.jpg);
-	background-repeat: repeat;
-	background-size: contain; 
-	
-}*/
-
-div#GrafikTasarım{
-	width: 1200px;
-	height: 600px;
-	margin: auto;
-	border: 0px solid white;
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 180px;
+	margin-top: 2px;
+	line-height: 80px;
 	text-align: center;
+	color: aqua;
 	font-size: 40px;
-	color: red;
-	float: right;
-	width: 100%;
-	
-    
+	font-family: serif;
 }
 
-/*
-h2{
+div#kutu3{
+	width: 100%;
+	height: 380px;
+	background-image: url(web16.jpg);
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 180px;
+	margin-top: 2px;
+	line-height: 80px;
+	text-align: center;
+	color: aqua;
+	font-size: 40px;
+	font-family: algerian;
+}
+
+div#kutu4{
+	width: 100%;
+	height: 380px;
+	background-image: url(web33.jpg);
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 180px;
+	margin-top: 2px;
+	line-height: 80px;
+	text-align: center;
+	color: aqua;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+div#kutu5{
+	width: 100%;
+	height: 380px;
 	background-image: url(web39.jpg);
-	background-repeat: no-repeat;
-	background-size:  100% 100%;
-	
-}
-*/
-
-div#Animasyon{
-	width: 1200px;
-	height: 600px;
-	margin: auto;
-	border: 0px solid white;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 180px;
+	margin-top: 2px;
+	line-height: 80px;
 	text-align: center;
+	color: aqua;
 	font-size: 40px;
-	color: red;
-	
-	float: right;
+	font-family: cursive;
+}
+
+div#kutu6{
 	width: 100%;
-    
+	height: 100%;
+	background-color: transparent;
+	margin-top: 2px;
 }
-
-div#Logo{
-	width: 1200px;
-	height: 600px;
-	margin: auto;
-	border: 0px solid white;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	font-size: 40px;
-	color: red;
-	
-	float: right;
-	width: 100%;
-    
-}
-
-div#HtmlCss{
-	width: 1200px;
-	height: 600px;
-	margin: auto;
-	border: 0px solid white;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	font-size: 40px;
-	color: red;
-	
-	float: right;
-    width: 100%;
-}
-
-div.kutular{
-
-	width: 170px;
-	height: 80px;
-	background: none;
-	float: left;
-	margin-left: 4px;
-	margin-right: 4px;	
-	color: white;
-	text-align: center;
-	line-height: 100px;
-	font-size: 18px;
-	
-
-
-} 
 
 
 
