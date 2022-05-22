@@ -17,7 +17,7 @@ div.kutu{
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 180px;
+	background-size: 100% 100%;
 
 
 }
@@ -28,6 +28,7 @@ div#kutu1{
 	height: 100%;
 	background-color: transparent;
 	margin-top: 2px;
+
 }
 
 
@@ -38,7 +39,7 @@ div#kutu2{
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 180px;
+	background-size: 100% 100%;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
@@ -54,7 +55,7 @@ div#kutu3{
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 180px;
+	background-size: 100% 100%;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
@@ -70,7 +71,7 @@ div#kutu4{
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 180px;
+	background-size: 100% 100%;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
@@ -86,7 +87,7 @@ div#kutu5{
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 180px;
+	background-size: 100% 100%;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
