@@ -7,91 +7,122 @@ body{
 
 }
 
-div.kutu{
-	width: 800px;
-	height: 1800px;
+div.animation_text{
+	width: 100%;
+	height: 148px;
+	margin: auto;
+	background-image: url(web34.jpg);
+	background-repeat: no-repeat; 
+	background-position: top;
+	background-attachment: local;
+	background-size: 100% 240px;
+	font-size: 40px;
+	color: aqua;
+	/*line-height: 80px;*/
+	text-align: center;
+
+}
+
+span.typewrite{
+	width: 100%;
+	height: 20px;
+	margin-top: 40px;
+
+
+
+}
+
+
+div.zemin{
+	width: 168px;
+
+}
+
+
+/*div.box{
+	width: 100%;
+	height: 140px;
 	margin: auto;
 	border: 0px solid teal;
-	/*background-image: url(web8.png);*/
 	background-image: url(web34.jpg);
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
 	background-size: 100% 180px;
+	
 
 
 }
+*/
 
-
-div#kutu1{
+div#box1{
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
 	margin-top: 2px;
-
 }
 
 
-div#kutu2{
+div#box2{
 	width: 100%;
 	height: 380px;
 	background-image: url(web3.jpg);
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 100%;
+	background-size: cover;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
-	color: aqua;
+	color: rgb(255, 118, 117);
 	font-size: 40px;
 	font-family: serif;
 }
 
-div#kutu3{
+div#box3{
 	width: 100%;
 	height: 380px;
 	background-image: url(web16.jpg);
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 100%;
+	background-size: cover;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
-	color: aqua;
+	color: rgb(72, 52, 212);
 	font-size: 40px;
 	font-family: algerian;
 }
 
-div#kutu4{
+div#box4{
 	width: 100%;
 	height: 380px;
 	background-image: url(web33.jpg);
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 100%;
+	background-size: cover;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
-	color: aqua;
+	color: rgb(190, 46, 221);
 	font-size: 40px;
 	font-family: sans-serif;
 }
 
-div#kutu5{
+div#box5{
 	width: 100%;
 	height: 380px;
 	background-image: url(web39.jpg);
 	background-repeat: no-repeat; 
 	background-position: top;
 	background-attachment: local;
-	background-size: 100% 100%;
+	background-size: cover;
 	margin-top: 2px;
 	line-height: 80px;
 	text-align: center;
-	color: aqua;
+	color: rgb(243, 156, 18);
 	font-size: 40px;
 	font-family: cursive;
 }
@@ -102,6 +133,8 @@ div#kutu6{
 	background-color: transparent;
 	margin-top: 2px;
 }
+
+
 
 
 
