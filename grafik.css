@@ -3,10 +3,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;   
 	background-size: 100% 100%;
-	
-
 }
-
 div#clock{
 /*background-color:red;*/
 width: 220px;
@@ -28,8 +25,6 @@ font-size: 60px;
 font-family: serif;
 color: aqua;
 }
-
-
 /**{
 	margin: 0;
 	box-sizing: border-box;
@@ -98,7 +93,6 @@ color: aqua;
 	/*font-size: 100%;
     margin: auto;*/
 }
-
 div.animation_text{
 	width: 100%;
 	height: 148px;
@@ -112,26 +106,18 @@ div.animation_text{
 	color: aqua;
 	/*line-height: 80px;*/
 	text-align: center;
-
 }
-
 span.typewrite{
 	width: 100%;
 	height: 20px;
 	margin-top: 40px;
-
-
-
 }
 
 
 div.zemin{
 	width: 168px;
-
 }
-
-
-/*div.box{
+div.box{
 	width: 100%;
 	height: 140px;
 	margin: auto;
@@ -141,20 +127,13 @@ div.zemin{
 	background-position: top;
 	background-attachment: local;
 	background-size: 100% 180px;
-	
-
-
 }
-*/
-
 div#box1{
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
 	margin-top: 2px;
 }
-
-
 div#box2{
 	width: 100%;
 	height: 380px;
@@ -170,7 +149,6 @@ div#box2{
 	font-size: 40px;
 	font-family: serif;
 }
-
 div#box3{
 	width: 100%;
 	height: 380px;
@@ -186,7 +164,6 @@ div#box3{
 	font-size: 40px;
 	font-family: algerian;
 }
-
 div#box4{
 	width: 100%;
 	height: 380px;
@@ -202,7 +179,6 @@ div#box4{
 	font-size: 40px;
 	font-family: sans-serif;
 }
-
 div#box5{
 	width: 100%;
 	height: 380px;
@@ -218,7 +194,6 @@ div#box5{
 	font-size: 40px;
 	font-family: cursive;
 }
-
 div#kutu6{
 	width: 100%;
 	height: 100%;
