@@ -1,293 +1,864 @@
 <!DOCTYPE HTML>
 
 <html>
-<link rel="icon" href="site.ico" type="image/x-icon" />
+
 <head>
-  <title>Anasayfa</title>
+  <title>Button</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="uygulamatakvim.css">
+  <script type="text/javascript" src="uygulamatakvim.js"></script>
+   <style>
+   body{
+     background: #000000;
+   }
+    .button1{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #03e9f4,
+                    0 0 10px #03e9f4,
+                    0 0 20px #03e9f4,
+                    0 0 28px #03e9f4;
+    }
+    .button2{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #FF00CC,
+                    0 0 10px #FF00CC,
+                    0 0 20px #FF00CC,
+                    0 0 28px #FF00CC;
+    }
+    .button3{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #00F030,
+                    0 0 10px #00F030,
+                    0 0 20px #00F030,
+                    0 0 28px #00F030;
+    }
+    .button4{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #1A53FF,
+                    0 0 10px #1A53FF,
+                    0 0 20px #1A53FF,
+                    0 0 28px #1A53FF;
+    }
+    .button5{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #FF3300,
+                    0 0 10px #FF3300,
+                    0 0 20px #FF3300,
+                    0 0 28px #FF3300;
+    }
+    .button6{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #FFFFFF,
+                    0 0 10px #FFFFFF,
+                    0 0 20px #FFFFFF,
+                    0 0 28px #FFFFFF;
+    }
+    .button7{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 0px #CC00FF,
+                    0 0 10px #CC00FF,
+                    0 0 20px #CC00FF,
+                    0 0 28px #CC00FF;
+    }
+    .button8{
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        height: 20px;
+        color: #fff;
+        padding: 3px;
+        border-radius: 0px;
+        position: relative;
+        overflow: hidden;
 
-    <link rel="stylesheet" type="text/css" href="robo.css">
-    <link rel="stylesheet" type="text/css" href="uygulamatakvim.css">
-    <script type="text/javascript" src="uygulamatakvim.js"></script>
+    }
+    .button1::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button2::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button3::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button4::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button5::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button6::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button7::before{
+        content: "";
+        position: absolute;
+        top: -10%;
+        left: -6px;
+        width: 200%;
+        height: 120%;
+        border-radius: 50%;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 50% 100%;
+        border-radius: 50%;
+    }
+    .button8::before{
+        content: "";
+        position: absolute;
+       /* top: -50%;
+        left: -6px;*/
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        /*align-items: center;*/
+        background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+        background-size: 100% 100%;
+        border-radius: 0%;
+    }
+    .button1:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button2:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button3:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button4:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button5:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button6:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button7:hover::before{
+        animation: animate_border
+        .80s linear infinite;
+        animation-direction: alternate-reverse;
+    }
+    .button8:hover::before{
+        animation: animate_border
+        .600s linear infinite;
+        animation-direction: alternate;
 
-</head>
-    <style>
+    }
 
-  body{
-   background-image: url(web3.jpg);
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-  }
-  .tab00{
-     width: 100%;
-     height: 1400px;
 
-  }
-  .td{
-      height: 100%;
+    .button1 span{
+        display: block;
+        background-image: url(web8.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+
+    }
+    .button2 span{
+        display: block;
+        background-image: url(web46.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button3 span{
+        display: block;
+        background-image: url(web16.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button4 span{
+        display: block;
+        background-image: url(web44.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button5 span{
+        display: block;
+        background-image: url(web15.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button6 span{
+        display: block;
+        background-image: url(web34.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button7 span{
+        display: block;
+        background-image: url(web11.jpg);
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 16px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .button8 span{
+        display: block;
+        width: 100%;
+        height: 0px;
+        padding: 30px 16px;
+        border-radius: 0px;
+        position: relative;
+        z-index: 2;
+    }
+    @keyframes animate_border{
+        to{
+            transform: translateX(-45%);
+        }
+
+    }
+    .tab14{
+        width: 100%;
+        height: 28px;
+
+    }
+    #td14{
+        width: 100%;
+        height: 28px;
+
+    }
+
+    /*.light{
+        position: absolute;
+        top: 24%;
+        border-radius: 10px;
+        left: 20%;
+        width: 60%;
+        height: 10px;
+        background: #3399FF;
+        box-shadow: 0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 75px #03e9f4,
+                    0 0 125px #03e9f4;
+    }*/
+    /*.font{
+        font-size: 16px;
+    }*/
+    .tab12{
+        width: 100%;
+        height: 120px;
+
+    }
+    /*.img{
+        width: 100%;
+    }*/
+
+    #td11{
+        width: 14%;
+        height: 120px;
+    }
+
+     #td12{
+      width: 100%;
+      height: 130px;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 0vh;
-      flex-direction: column;
-      gap: 12px;
-  }
+        justify-content: center;
+        align-items: center;
+        /*min-height: 100vh;*/
+        background-color: #000000;
+        /*flex-direction: column;*/
+        gap: 28px;
+     }
+     #td13{
+         width: 18%;
+         height: 120px;
 
-   .tdd{
-     width: 90%;
-     height: 200px;
-   }
+     }
+
+     .hr{
+         width: 100%;
+         height: 8px;
+         border-radius: 20px;
+         background:
+        linear-gradient(240deg,
+        #4fcf70, #FF66CC,
+        #a767e5, #99FF33,
+        #00FFFF,#FF6600,
+        #3366FF,#00FF99);
+         box-shadow: 0 0 5px #990099,
+                     0 0 25px #990099,
+                     0 0 50px #990099,
+                     0 0 100px #990099;
+     }
+     div#clock{
+/*background-color:red;*/
+width: 220px;
+height: 60px;
+font-size: 20px;
+line-height: 34px;
+text-align: center;
+width: 100%;
+height: 100px;
+/*background-image: url(web3.jpg);
+*/background-repeat: no-repeat;
+background-position: top;
+background-attachment: local;
+background-size: 100% 100%;
+border: 0px;
+margin-top: 2px;
+text-align: center;
+font-size: 60px;
+font-family: serif;
+color: aqua;
+}
 
 
-  a{
-
-      width: 74px;
-      height: 90px;
-      position: relative;
-      background: #444;
-      color: #fff;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 1.5em;
-      letter-spacing: 0.1em;
-      padding: 8px 18px;
-      transition: 0.5s;
-      border-radius: 50%;
-
-  }
-
-
-  a:hover{
-      letter-spacing: 0.0em;
-      background: var(--clr);
-      color: var(--clr);
-      box-shadow: 0 0 40px var(--clr);
-  }
-
-
-  .a1::before{
-      content: 'android';
-      font-size: 14px;
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a2::before{
-      content: 'animasyon';
-      font-size: 12px;
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a3::before{
-      content: 'c++';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a4::before{
-      content: 'Css';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a5::before{
-      content: 'C#';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a6::before{
-      content: 'grafik';
-      font-size: 16px;
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a7::before{
-      content: 'html';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a8::before{
-      content: 'java';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a9::before{
-      content: 'js';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a10::before{
-      content: 'logo';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a11::before{
-      content: 'php';
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-  .a12::before{
-      content: 'mysql';
-      font-size: 18px;
-      position: absolute;
-      inset: 1px;
-      background: #27282c;
-      border-radius: 50%;
-      line-height: 108px;
-      text-align: center;
-
-  }
-
-  a i{
-      position: absolute;
-      inset: 0;
-      display: block;
-  }
-   .logo{
-       width: 100%;
-       height: 100%;
-       background-color: ;
-   }
-   #logo1{
-    width: 100%;
-    height: 180px;
-    background-image: url(web80.gif);
+/**{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans' sans-serif;
+}*/
+/*body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #060a1f;
+}*/
+/*#clock #time{
+    display: flex;
+}*/
+#clock #time div{
+    position: relative;
+    margin: auto;
+    -webkit-box-reflect: below 1px
+    linear-gradient(transparent, #0008);
+}
+#clock #time div span{
+    position: relative;
+    display: block;
+    width: 248px;
+    height: 52px;
+    background: navy;
+    color: aqua;
+    font-weight: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    fon2-family: 'Open sans' sans-serif;
+    z-index: 10;
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, .2);
+}
+#clock #time div span:nth-child(2) {
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: .2m;
+    font-weight: 500;
+    z-index: 9;
+    box-shadow: none;
+    background: #060a1f;
+    text-transform: uppercase;
+}
+#clock #time div:last-child span{
+    /*background: navy;*/
+    background-image: url(web3.jpg);
     background-repeat: no-repeat;
-   background-size: 100% 100%;
-    position: relative;
-    top: 0px;
-    border-radius: 0px;
-   }
-   #logo2{
-    width: 100%;
-    height: 240px;
-    background-color: #CC3366;
-    position: relative;
-    top: 48px;
-    border-radius: 0px;
-   }
-   #logo3{
-   width: 100%;
-    height: 240px;
-    background-color: #3300FF;
-    position: relative;
-    top: 96px;
-    border-radius: 0px;
-   }
-   #logo4{
-   width: 100%;
-    height: 240px;
-    background-color: #000066;
-    position: relative;
-    top: 144px;
-    border-radius: 0px;
-   }
-   #logo5{
-    width: 100%;
-    height: 240px;
-    background-color: #999999;
-    position: relative;
-    top: 198px;
-    border-radius: 0px;
-   }
+    background-position: top;
+    background-attachment: local;
+    background-size: 100% 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 100%
+}
+#clock #time div:last-child span:nth-child(2) {
+    background: #ec0062;
+}
+#clock #time div span:nth-child(1) {
+    line-height: 48px;
+    /*font-size: 100%;
+    margin: auto;*/
+}
+div.t_menu{
+ width: 100%;
+}
+.font1{
+   font-size: 10px;
+}
+.font2{
+   font-size: 18px;
+   letter-spacing: 6px;
+}
+.font3{
+   font-size: 13px;
+}
+.font4{
+
+}
+.font5{
+   letter-spacing: 2.5px;
+}
+.font6{
+
+}
+.font7{
+   letter-spacing: 4px;
+}
+    .load1{
+      width: 40px;
+      height: 50px;
+      background: #FF0033;
+      border-radius: 50%;
+      position: relative;
+      top: 14vh;
+      left: 40%;
+
+      /*border: 4px solid #000099;
+      border-top: 4px solid #000099;*/
+      /*-moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    animation-direction: alternate;*/
+    z-index: 2;
+    /*box-shadow: 0 0 5px #FF0066,
+                     0 0 25px #FF0066,
+                     0 0 50px #FF0066,
+                     0 0 100px #FF0066;*/
+  }
+  .load2{
+      width: 0px;
+      height: 0px;
+      background: none;
+      /*border-radius: 20px;*/
+      border-top: 20px solid transparent;
+      border-left: 80px solid #FF0099;
+      border-bottom: 20px solid transparent;
+      border-right: 80px solid #000099;
+      /*width: 20px;*/
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      position: relative;
+      top: 0px;
+      left: -60px;
+      /*border: 4px solid ;
+      border-top: 4px solid ;*/
+      -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 2;
+    /*animation-direction: alternate;*/
+    /*box-shadow: 0 0 5px #33FFFF,
+                     0 0 25px #33FFFF,
+                     0 0 50px #33FFFF,
+                     0 0 100px #33FFFF;*/
+
+  }
+  .load3{
+      width: 0px;
+      height: 0px;
+      background: none;
+     /* border-radius: 20px;*/
+      border-top: 20px solid transparent;
+      border-left: 80px solid #CCFFCC;
+      border-bottom: 20px solid transparent;
+      border-right: 80px solid #FF6600;
+      /*width: 20px;*/
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      position: relative;
+      top: -20px;
+      left: -80px;
+      /*border: 4px solid ;
+      border-top: 4px solid ;*/
+      -moz-animation: spin 2s linear infinite;
+      -o-animation: spin 2s linear infinite;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin3 1s linear infinite;
+      /*animation-direction: alternate;*/
+      /*box-shadow: 0 0 5px #33FFFF,
+                     0 0 25px #33FFFF,
+                     0 0 50px #33FFFF,
+                     0 0 100px #33FFFF;*/
+
+  }
+  /*.load3{
+      width: 80%;
+      height: 20px;
+      background: #111111;
+      border-radius: 20px;
+      position: relative;
+      top: -2px;
+      left: 54px;
+      border: 4px solid ;
+      border-top: 4px solid ;
+      -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    /*animation-direction: alternate;*/
+    box-shadow: 0 0 5px #33FFFF,
+                     0 0 25px #33FFFF,
+                     0 0 50px #33FFFF,
+                     0 0 100px #33FFFF;
+
+  }*/
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin3 {
+    100% {
+        transform: rotate(0deg);
+    }
+
+    0% {
+        transform: rotate(360deg);
+    }
+}
+  .animation{
+      width: 200px;
+      height: 1200px;
+      background: #111111;
+      color: red;
+      text-align: center;
+      float: left;
+      margin-right: 20px;
 
 
-  </style>
+
+  }
+  .logo{
+      width: 200px;
+      height: 1200px;
+      background: #222222;
+      color: red;
+      text-align: center;
+      float: left;
+      margin-right: 20px;
+  }
+  .grafik{
+      width: 200px;
+      height: 1200px;
+      background: #222222;
+      color: red;
+      text-align: center;
+      float: left;
+  }
+
+   </style>
 </head>
 
 <body>
-    <table border="0" class="tab00" >
-      <tr>
-          <td class="td" rowspan="2">
-    <a href="#" class="a1"style="--clr:red"><span></span><i></i></a>
-    <a href="#" class="a2" style="--clr:#1e9bff"><span></span><i></i></a>
-    <a href="#" class="a3" style="--clr:#0FFF0F"><span></span><i></i></a>
-    <a href="#" class="a4" style="--clr:#FF1F78"><span></span><i></i></a>
-    <a href="#" class="a5"style="--clr:aqua"><span></span><i></i></a>
-    <a href="#" class="a6" style="--clr:#FF9900"><span></span><i></i></a>
-    <a href="#" class="a7" style="--clr:#FF99FF"><span></span><i></i></a>
-    <a href="#" class="a8" style="--clr:#1F69FF"><span></span><i></i></a>
-    <a href="#" class="a9" style="--clr:#CC3399"><span></span><i></i></a>
-    <a href="#" class="a10" style="--clr:#FFFF33"><span></span><i></i></a>
-    <a href="#" class="a11" style="--clr:#FFFFFF"><span></span><i></i></a>
-    <a href="#" class="a12" style="--clr:#00FF00"><span></span><i></i></a>
-      </td>
-          <td class="tdd">
-      <div class="logo">
-          <div id="logo1">
+    <table class="tab12" border="0">
+        <tr>
+            <td id="td11">
+    <div class="t_menu">
+    <div class="t_sayi"><script type="text/javascript">document.write(tt.getDate())</script></div>
+    <div class="t_tarih"><script type="text/javascript">document.write(ay[tt.getUTCMonth()])</script>  <script type="text/javascript">document.write(tt.getFullYear())</script></div>
+    <div class="t_gun"><script type="text/javascript">document.write(gun[tt.getDay()])</script></div>
+</div>
+            </td>
+            <td id="td12">
+  <!--<center>-->
+  <a href="#" class="button1">
+  <span>
+  <font class="font1">ANDROİD</font>
+  </span>
+  </a>
+  <a href="#" class="button2">
+  <span>
+  <font class="font2">CSS</font>
+  </span>
+  </a>
+  <a href="#" class="button3">
+  <span>
+  <font class="font3">GRAFİK</font>
+  </span>
+  </a>
+  <a href="#" class="button4">
+  <span>
+  <font class="font4">HTML</font>
+  </span>
+  </a>
+  <a href="#" class="button5">
+  <span>
+  <font class="font5">JAVA</font>
+  </span>
+  </a>
+  <a href="#" class="button6">
+  <span>
+  <font class="font6">LOGO</font>
+  </span>
+  </a>
+  <a href="#" class="button7">
+  <span>
+  <font class="font7">XML</font>
+  </span>
+  </a> <!--</center>-->
+            </td>
+            <td id="td13">
+                <div id="clock">
+    <div id="time">
+                <div><span id="saat"></span></div>
+                <!-- <div><span id="dakika">00</span>dakika</div>
+                <div><span id="saniye">00</span>saniye</div> -->
+        </div>
+</div>
 
-          </div>
-          <div id="logo2">
+<script>
+var aSaat = document.getElementById("saat"); //aSaat adında bir değişken tanımladık.
+function format(saatcek) {
+var bSaat = saatcek.toString();
+if (bSaat.length == 1) {
+return "0" + bSaat;
+} else {
+return bSaat;
+}
+}
+function saatGuncelleme() { //Burada bilgisayarımızdan saati çekiyoruz.
+var tarih = new Date();
+var saat = tarih.getHours(); //Burada saati çekiyoruz.
+var dakika = tarih.getMinutes(); //Burada dakikayı çekiyoruz.
+var saniye = tarih.getSeconds(); //Burada saniyeyi çekiyoruz.
+aSaat.textContent = format(saat) + ":" + format(dakika) + ":" + format(saniye); //Burada ekranımıza çıktımızı veriyoruz.
+}
+setInterval(saatGuncelleme, 1000);
+</script>
+            </td>
+        </tr>
+    </table>
 
-          </div>
-          <div id="logo3">
-
-          </div>
-          <div id="logo4">
-
-          </div>
-          <div id="logo5">
-
-          </div>
-      </div>
-          </td>
-      </tr>
+    <hr class="hr">
+    <!--<a href="#" class="button8">
+        <span></span>
+    </a>-->
+             <!--<div class="light"></div>-->
 
 
- </table>
+  <div class="animation"> ANİMASYON
+  <div class="load1">
+    <div class="load2">
+    <div class="load3"></div>
+    </div>
+    </div>
+  </div>
+  <div class="logo">
+   LOGO
+  </div>
+  <div class="grafik">
+   GRAFİK
+  </div>
 
 </body>
 
